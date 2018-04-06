@@ -1,0 +1,42 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.3 (lin64) Build 2018833 Wed Oct  4 19:58:07 MDT 2017
+| Date         : Thu Nov 16 14:44:07 2017
+| Host         : dante-X55C running 64-bit Linux Mint 18.2 Sonya
+| Command      : report_control_sets -file design_1_wrapper_control_sets_placed.rpt
+| Design       : design_1_wrapper
+| Device       : xc7z020
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+
+1. Summary
+----------
+
++-------------------------------+-------+
+|             Status            | Count |
++-------------------------------+-------+
+| Number of unique control sets |   368 |
++-------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             669 |          252 |
+| No           | No                    | Yes                    |              42 |           15 |
+| No           | Yes                   | No                     |            1234 |          457 |
+| Yes          | No                    | No                     |           11601 |         3466 |
+| Yes          | No                    | Yes                    |              60 |           13 |
+| Yes          | Yes                   | No                     |            2623 |          791 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+

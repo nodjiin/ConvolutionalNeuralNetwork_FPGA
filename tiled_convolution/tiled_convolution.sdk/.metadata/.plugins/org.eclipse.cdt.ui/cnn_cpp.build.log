@@ -1,0 +1,23 @@
+17:45:31 **** Auto Build of configuration Debug for project cnn_cpp ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/convolutional_module.cpp
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/convolutional_module.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cnn_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/convolutional_module.d" -MT"src/convolutional_module.o" -o "src/convolutional_module.o" "../src/convolutional_module.cpp"
+Finished building: ../src/convolutional_module.cpp
+ 
+Building target: cnn_cpp.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cnn_bsp/ps7_cortexa9_0/lib -o "cnn_cpp.elf"  ./src/mxml/mxml-attr.o ./src/mxml/mxml-entity.o ./src/mxml/mxml-file.o ./src/mxml/mxml-get.o ./src/mxml/mxml-index.o ./src/mxml/mxml-node.o ./src/mxml/mxml-private.o ./src/mxml/mxml-search.o ./src/mxml/mxml-set.o ./src/mxml/mxml-string.o  ./src/activation_functions.o ./src/activation_module.o ./src/container_module.o ./src/convolutional_module.o ./src/fpga_utils.o ./src/helloworld.o ./src/module.o ./src/net_parser.o ./src/platform.o ./src/pool_module.o ./src/tensor.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: cnn_cpp.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size cnn_cpp.elf  |tee "cnn_cpp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 260352	   3120	89139008	89402480	5542c70	cnn_cpp.elf
+Finished building: cnn_cpp.elf.size
+ 
+
+17:45:32 Build Finished (took 469ms)
+

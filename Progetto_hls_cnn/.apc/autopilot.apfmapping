@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="net_config.hpp" path="/home/studio/Progetto_hls_cnn/src/net_config.hpp"/>
+    <originFiles name="net_types.hpp" path="/home/studio/Progetto_hls_cnn/src/net_types.hpp"/>
+    <originFiles name="zhang_convolution.cpp" path="/home/studio/Progetto_hls_cnn/src/zhang_convolution.cpp"/>
+    <originFiles name="zhang_convolution.hpp" path="/home/studio/Progetto_hls_cnn/src/zhang_convolution.hpp"/>
+  </source>
+  <testbench>
+    <originFiles name="20c-net.cpp" path="/home/studio/Progetto_hls_cnn/testbench_cpp/20c-net.cpp"/>
+    <originFiles name="activation_functions.cpp" path="/home/studio/Progetto_hls_cnn/testbench_cpp/activation_functions.cpp"/>
+    <originFiles name="activation_functions.hpp" path="/home/studio/Progetto_hls_cnn/testbench_cpp/activation_functions.hpp"/>
+    <originFiles name="activation_module.cpp" path="/home/studio/Progetto_hls_cnn/testbench_cpp/activation_module.cpp"/>
+    <originFiles name="activation_module.hpp" path="/home/studio/Progetto_hls_cnn/testbench_cpp/activation_module.hpp"/>
+    <originFiles name="container_module.cpp" path="/home/studio/Progetto_hls_cnn/testbench_cpp/container_module.cpp"/>
+    <originFiles name="container_module.hpp" path="/home/studio/Progetto_hls_cnn/testbench_cpp/container_module.hpp"/>
+    <originFiles name="convolution.cpp" path="/home/studio/Progetto_hls_cnn/testbench_cpp/convolution.cpp"/>
+    <originFiles name="convolution.hpp" path="/home/studio/Progetto_hls_cnn/testbench_cpp/convolution.hpp"/>
+    <originFiles name="convolutional_module.cpp" path="/home/studio/Progetto_hls_cnn/testbench_cpp/convolutional_module.cpp"/>
+    <originFiles name="convolutional_module.hpp" path="/home/studio/Progetto_hls_cnn/testbench_cpp/convolutional_module.hpp"/>
+    <originFiles name="module.cpp" path="/home/studio/Progetto_hls_cnn/testbench_cpp/module.cpp"/>
+    <originFiles name="module.hpp" path="/home/studio/Progetto_hls_cnn/testbench_cpp/module.hpp"/>
+    <originFiles name="net_parser.cpp" path="/home/studio/Progetto_hls_cnn/testbench_cpp/net_parser.cpp"/>
+    <originFiles name="net_parser.hpp" path="/home/studio/Progetto_hls_cnn/testbench_cpp/net_parser.hpp"/>
+    <originFiles name="net_types.hpp" path="/home/studio/Progetto_hls_cnn/testbench_cpp/net_types.hpp"/>
+    <originFiles name="pool_module.cpp" path="/home/studio/Progetto_hls_cnn/testbench_cpp/pool_module.cpp"/>
+    <originFiles name="pool_module.hpp" path="/home/studio/Progetto_hls_cnn/testbench_cpp/pool_module.hpp"/>
+    <originFiles name="tensor.cpp" path="/home/studio/Progetto_hls_cnn/testbench_cpp/tensor.cpp"/>
+    <originFiles name="tensor.hpp" path="/home/studio/Progetto_hls_cnn/testbench_cpp/tensor.hpp"/>
+    <originFiles name="input_files" path="/home/studio/Progetto_hls_cnn/testbench_cpp/input_files"/>
+    <originFiles name="mxml" path="/home/studio/Progetto_hls_cnn/testbench_cpp/mxml"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

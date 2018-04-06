@@ -1,0 +1,7 @@
+vhdl xil_defaultlib  \
+"../../../../tiled_convolution.srcs/sources_1/bd/design_1/ipshared/228f/hdl/ip/zhang_cnn_ap_fpext_0_no_dsp_32.vhd" \
+"../../../../tiled_convolution.srcs/sources_1/bd/design_1/ipshared/228f/hdl/ip/zhang_cnn_ap_sitofp_4_no_dsp_64.vhd" \
+"../../../bd/design_1/ip/design_1_zhang_cnn_0_0/sim/design_1_zhang_cnn_0_0.vhd" \
+"../../../bd/design_1/ip/design_1_rst_processing_system7_0_100M_0/sim/design_1_rst_processing_system7_0_100M_0.vhd" \
+
+nosort
